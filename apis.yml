@@ -1,0 +1,28 @@
+aid: chessdna-app
+name: Chess DNA
+description: 'Chess DNA is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/chessdna-app/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-18'
+modified: '2026-11-18'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://chessdna.app
+- type: Documentation
+  url: https://chessdna.app
+x-submission-notes: 'Free chess tools as remote MCP (supabase function chess-dna-mcp; registry app.chessdna/chess-dna):
+  rating bands, Elo calc, player game lookup.'
+x-submission-probe: site 200 (SPA soft-200)
